@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Lorem ipsum",
+    "description": "Now is the time for all good men to come to the aid of the party",
+    "user_id": 1
+  },
+  {
+    "name": "Typing test",
+    "description": "The quick red fox jumps over the very lazy dog!",
+    "user_id": 2
+  },
+  {
+    "name": "Over the Rainbow",
+    "description": "Under the clouds.",
+    "user_id": 3
+
+  }
+]
