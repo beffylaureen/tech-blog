@@ -1,7 +1,16 @@
-<form action="">
-  <label for="">Screen Name</label>
-  <input type="text" />
-  <button>Submit</button>
-</form>
+<a href="/newblog">New Blog Post</a>
 
-<script src="./js/profile.js"></script>
+{{#each posts}}
+  <div class="card">
+    <div class="card-header">
+      <a href="/blog/:id"><h2>{{title}}</h2></a>
+    </div>
+    <div class="card-body">
+      {{body}}
+    </div>
+  </div>
+{{/each}}
+
+
+
+{{!-- <script src="./js/profile.js"></script> --}}
